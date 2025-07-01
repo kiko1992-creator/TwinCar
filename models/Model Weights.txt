@@ -1,0 +1,18 @@
+# Model Weights
+
+The fine-tuned EfficientNetV2 weights for this project are hosted on Hugging Face for reliable, versioned access:
+
+🔗 [Download from Hugging Face](https://huggingface.co/kikogazda/Efficient_NetV2_Edition/resolve/main/efficientnetv2_best_model.pth)
+
+---
+
+**Details:**
+
+- **Format:** PyTorch `.pth`
+- **Size:** ~55MB (EfficientNetV2-s)
+- **Source:** [Stanford Cars Dataset](https://www.kaggle.com/datasets/jutrera/stanford-car-dataset-by-classes-folder)
+- **Purpose:** 196-class car make, model, and year classification using an EfficientNetV2 backbone
+
+These weights can be used directly in inference scripts, research, or Gradio web demos.
+
+For a live demo, try the [Gradio Space](https://kikogazda-efficient-netv2.hf.space/?logs=container&__theme=system&deep_link=d_pUoRnrpFM).
